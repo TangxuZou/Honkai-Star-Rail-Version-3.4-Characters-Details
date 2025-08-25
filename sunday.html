@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="sunday.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <title>Sunday Character Details</title>
+    </head>
+
+    <body>
+
+        <!-- I used ChatGPT to help me understand how to use nav in html -->>
+        <nav class="navbar navbar-blue navbar-expand-lg">
+            <a class="sundayNavbar" href="#">Sunday</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lore">Lore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#details">Character Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#abilities">Abilities</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="sundayTitle">
+            Sunday
+        </h1>
+
+        <section id="lore" class="centered">
+            <h2 class = "section">Lore</h2>
+            <p class="description">
+                The dream of the Order has dissipated, yet there are still those who will not give up on their original intent.<br />
+                — The traveler whose wings were clipped... whereto shall his footsteps lead?
+            </p>
+            <a href="https://honkai-star-rail.fandom.com/wiki/Sunday/Lore" class = "hyperlink">source</a>
+        </section>
+
+        <section id="details" class="centered">
+            <h2 class = "section">Character Details</h2>
+            <p>
+                Sunday is a lone traveler caught between past ideals and future hopes, wielding mysterious power with calm determination.
+            </p>
+            <a href="https://www.youtube.com/watch?v=ud0jXAK5Uls" class = "hyperlink">Character Trailer<br></a>
+            <iframe src="https://www.youtube.com/embed/ud0jXAK5Uls" allowfullscreen></iframe>
+
+            <h3 class = "section">Lv. 80 Stats</h3>
+            <!--Used ChatGPT to help me make a better-looking table-->
+            <ul class="list-group mb-4 stats-list">
+                <li class="list-group-item">Base Health: 1242</li>
+                <li class="list-group-item">Base Attack: 641</li>
+                <li class="list-group-item">Base Defense: 534</li>
+                <li class="list-group-item">Base SPD: 96</li>
+                <li class="list-group-item">Element: Imaginary</li>
+            </ul>
+        </section>
+
+        <section id="abilities" class="centered">
+            <h2 class = "section">Abilities</h2>
+            <ul>
+                <li><strong>Benison of Paper and Rites:</strong> Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by 30%. If the target has a summon, then the dealt DMG increase is further boosted by an additional 50%, lasting for 2 turn(s).
+                    After using Skill on The Beatified, recovers 1 Skill Point.
+                    When Sunday uses this ability on characters following the Path of Harmony, cannot trigger the "immediate action" effect.</li>
+                <li><strong>Ode to Caress and Cicatrix:</strong> Regenerates Energy by 20% of Max Energy for one designated ally character, and turns the target and their summon into "The Beatified." "The Beatified" have their CRIT DMG increased by an amount equal to 30% of Sunday's CRIT DMG plus 12%.
+                    At the start of Sunday's every turn, the duration of "The Beatified" decreases by 1 turn, lasting for a total of 3 turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, "The Beatified" will also be dispelled.</li>
+                <li><strong>The Sorrowing Body: </strong>When using Skill, increases the target's CRIT Rate by 20%, lasting for 3 turn(s).</li>
+            </ul>
+            <a href="https://www.youtube.com/watch?v=HQSBp1xZhnw" class = "hyperlink">Character Guide<br></a>
+        </section>
+    </body>
+
+</html>

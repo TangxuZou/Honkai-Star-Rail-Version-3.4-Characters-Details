@@ -1,0 +1,27 @@
+.phainonTitle {
+    text-align: center;
+    color: #4FDEE3;
+    font-family: cursive;
+}
+
+.phainonNavbar {
+    color: #4FDEE3;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Times New Roman;
+}
+
+.centered {
+    text-align: center;
+}
+
+.hyperlink {
+    color: #4FDEE3;
+    font-size: 15px;
+}
+
+.section {
+    color: #4FDEE3;
+    font-size: 30px;
+    font-family: Times New Roman;
+}

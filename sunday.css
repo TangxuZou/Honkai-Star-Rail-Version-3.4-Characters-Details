@@ -1,0 +1,27 @@
+.sundayTitle {
+    text-align: center;
+    color: #8580F0;
+    font-family: cursive;
+}
+
+.sundayNavbar {
+    font-weight: bold;
+    color: #8580F0;
+    font-size: 25px;
+    font-family: Times New Roman;
+}
+
+.centered {
+    text-align: center;
+}
+
+.hyperlink {
+    color: #8580F0;
+    font-size: 15px;
+}
+
+.section {
+    color: #8580F0;
+    font-size: 30px;
+    font-family: Times New Roman;
+}

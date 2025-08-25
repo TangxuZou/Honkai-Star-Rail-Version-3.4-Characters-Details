@@ -1,0 +1,27 @@
+.tribbieTitle {
+    text-align: center;
+    color: #DE3536;
+    font-family: cursive;
+}
+
+.tribbieNavbar {
+    color: #DE3536;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Times New Roman;
+}
+
+.centered {
+    text-align: center;
+}
+
+.hyperlink {
+    color: #DE3536;
+    font-size: 15px;
+}
+
+.section {
+    color: #DE3536;
+    font-size: 30px;
+    font-family: Times New Roman;
+}
